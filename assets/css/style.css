@@ -1,8 +1,16 @@
-/*Asterix wildcard selector to overide default style applied by the browser*/
+/*Astericks wildcard selector to overide default style applied by the browser*/
 * {
     padding: 0;
-    margin:0;
+    margin: 0;
     box-sizing: border-box;
+}
+/*General styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*generic project styles*/
+    color:#3a3a3a;
 }
 /*Header*/
 header {
@@ -12,6 +20,9 @@ header {
 /*Main content*/
 main {
     background-color:lightblue;
+    
+    /*Make main element take up any surplas space to push header to the top and footer to bottom of page*/
+    flex: 1 0 auto;
 }
 
 /*Footer*/
