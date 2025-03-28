@@ -1,4 +1,4 @@
-/* Google fonts import */.
+/* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
 /*Astericks wildcard selector to overide default style applied by the browser*/
@@ -21,6 +21,10 @@ body {
 /*Header*/
 header {
     background-color: lightcoral;
+}
+
+h1 {
+    font-family: 'oswal', sans-serif;
 }
 
 /*Main content*/
