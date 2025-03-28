@@ -89,6 +89,7 @@ main {
     
     /*Make main element take up any surplas space to push header to the top and footer to bottom of page*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /*Footer*/
